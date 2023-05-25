@@ -5,6 +5,7 @@ Este projeto consiste na criação de um Currículo Online utilizando as linguag
 Recursos Utilizados: O projeto faz uso das seguintes tecnologias e recursos:
 
 HTML5: Utilizado para estruturar e organizar o conteúdo do currículo.
+
 CSS3: Utilizado para estilizar o currículo, tornando-o visualmente atraente e responsivo.
 Funcionalidades: O Currículo Online possui as seguintes funcionalidades:
 
