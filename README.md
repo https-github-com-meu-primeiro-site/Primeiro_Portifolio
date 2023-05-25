@@ -10,5 +10,7 @@ CSS3: Utilizado para estilizar o currículo, tornando-o visualmente atraente e r
 Funcionalidades: O Currículo Online possui as seguintes funcionalidades:
 
 Layout Responsivo: O currículo é adaptável a diferentes dispositivos, garantindo uma boa experiência de visualização em smartphones, tablets e desktops. Navegação Intuitiva: Os visitantes podem navegar facilmente pelas diferentes seções do currículo, como informações pessoais, formação acadêmica, experiência profissional, habilidades, entre outras.
+
 Design Atraente: O currículo conta com um design moderno e agradável, com o uso adequado de cores, tipografia e elementos visuais para destacar as informações mais relevantes.
+
 Personalização: O projeto foi desenvolvido de forma modular, permitindo uma fácil personalização e adição de novas seções conforme necessário.
