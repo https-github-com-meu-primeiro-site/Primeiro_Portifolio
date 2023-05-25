@@ -1,0 +1,108 @@
+body{
+	font-family: Arial;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+header{
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+.social {
+	width: 16px;
+	height: 16px;
+}
+
+.left-column {
+	float: left;
+	width: 25%;
+	padding-right: 20px;
+}
+
+#profissional-picture {
+	background-color: #aaa;
+	width: 100%;
+	padding: 5%;
+}
+
+.middle-column {
+	float: left;
+	width: 50%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.right-column {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+	position: sticky;
+	top: 0;
+}
+
+article {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background:	 #ddd;
+	margin-top: 20px;
+}
+
+main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.atuacao {
+	margin-bottom: 10px;
+}
+
+.negrito {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+@media all and (max-width: 900px) {
+	.header {
+		font-size: 100%;
+	}
+
+	.left-column {
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	.middle-column {
+		width: 100%;
+	}
+
+	.right-column {
+		width: 100%;
+		padding-left: 0px;
+	}
+}
+
+@keyframes rotate-image {
+	50% {
+		transform: translateZ(-10px) rotateX(60deg) rotateZ(29deg) rotateY(-180deg);
+	}
+}
+
+#profissional-picture {
+	animation-name: rotate-image;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
+	animation-iteration-count: 2;
+}
